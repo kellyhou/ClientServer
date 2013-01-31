@@ -1,0 +1,96 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.6	//
+BACKSPACE	input.h	15;"	d
+BLACK	ansi_code.h	/^	BLACK = 30,$/;"	e	enum:color
+BLINKON	ansi_code.h	/^	BLINKON,  $/;"	e	enum:text_attribute
+BLUE	ansi_code.h	/^	BLUE,$/;"	e	enum:color
+BOLD	ansi_code.h	/^	BOLD,$/;"	e	enum:text_attribute
+CIKU_FILENAME	dict.c	9;"	d	file:
+CYAN	ansi_code.h	/^	CYAN,$/;"	e	enum:color
+DOWN	input.h	7;"	d
+END	input.h	11;"	d
+ENTER	input.h	14;"	d
+ESC	input.h	13;"	d
+GREEN	ansi_code.h	/^	GREEN,$/;"	e	enum:color
+HOME	input.h	10;"	d
+INVISIBLE	ansi_code.h	/^	INVISIBLE,$/;"	e	enum:text_attribute
+LEFT	input.h	8;"	d
+MAGENTA	ansi_code.h	/^	MAGENTA,$/;"	e	enum:color
+MAX_WORDS_LEN	dict.c	10;"	d	file:
+NORMAL	ansi_code.h	/^   NORMAL,$/;"	e	enum:text_attribute
+NO_PRO	input.h	17;"	d
+RED	ansi_code.h	/^	RED,$/;"	e	enum:color
+REVERSE_VIDEO_ON	ansi_code.h	/^	REVERSE_VIDEO_ON = 7,$/;"	e	enum:text_attribute
+RIGHT	input.h	9;"	d
+TAB	input.h	16;"	d
+UNDERLINE	ansi_code.h	/^	UNDERLINE = 4,$/;"	e	enum:text_attribute
+UP	input.h	6;"	d
+WHITE	ansi_code.h	/^	WHITE,$/;"	e	enum:color
+YELLOW	ansi_code.h	/^	YELLOW,$/;"	e	enum:color
+_ANSI_CODE_H	ansi_code.h	2;"	d
+__GLIST_DICT_H	glist.h	2;"	d
+__INPUT_H_	input.h	2;"	d
+bar	ansi_code.c	/^int bar( int start_x, int start_y, int x_len, int y_len, char ch )$/;"	f
+ch	glist.h	/^	char ch;$/;"	m	struct:gnode
+clear_screen	ansi_code.c	/^int clear_screen( void )$/;"	f
+clear_to_line_end	ansi_code.c	/^int clear_to_line_end( void )$/;"	f
+color	ansi_code.h	/^enum color {$/;"	g
+data	glist1.c	/^	char data[0];$/;"	m	struct:gnode	file:
+debug	dict.c	/^int debug( char * fmt, char * str )$/;"	f
+explain	glist.h	/^	char * explain;$/;"	m	struct:gnode
+first_level	glist.h	/^	gnode_t * first_level;	$/;"	m	struct:g_dict_list
+g_dict_list	glist.h	/^struct g_dict_list {$/;"	s
+g_dict_list_t	glist.h	/^typedef struct g_dict_list g_dict_list_t;$/;"	t	typeref:struct:g_dict_list
+get_key	input.c	/^int get_key( int echo )$/;"	f
+get_win_size	ansi_code.c	/^int get_win_size( int * x, int * y )$/;"	f
+gnode	glist.h	/^struct gnode {$/;"	s
+gnode	glist1.c	/^struct gnode {$/;"	s	file:
+gnode_t	glist.h	/^typedef struct gnode gnode_t;$/;"	t	typeref:struct:gnode
+gnode_t	glist1.c	/^typedef struct gnode gnode_t;$/;"	t	typeref:struct:gnode	file:
+have_search_words_num	dict.c	/^int have_search_words_num;$/;"	v
+init_g_dict_list	glist.c	/^int init_g_dict_list( g_dict_list_t * gdl )$/;"	f
+insert_dict_glist	glist.c	/^int insert_dict_glist( g_dict_list_t * gdl, char *words,char * explain)$/;"	f
+insert_gnode	glist1.c	/^int insert_gnode( gnode_t ** p, char * str )$/;"	f
+insert_single_gnode	glist.c	/^gnode_t * insert_single_gnode( gnode_t ** p, char ch, char * explain )$/;"	f
+insert_single_gnode	glist1.c	/^int insert_single_gnode( gnode_t ** p, char * words )$/;"	f
+left_words_num	dict.c	/^int left_words_num;$/;"	v
+line	ansi_code.c	/^int line( int start_x, int start_y, int len, int direction, int c )$/;"	f
+main	chin.c	/^int main( int argc, char ** argv )$/;"	f
+main	dict.c	/^int main( int argc, char ** argv )$/;"	f
+main	glist1.c	/^int main( int argc, char ** argv )$/;"	f
+move_down	ansi_code.c	/^int move_down( int line )$/;"	f
+move_input_window	dict.c	/^int move_input_window( void )$/;"	f
+move_left	ansi_code.c	/^int move_left( int col )$/;"	f
+move_right	ansi_code.c	/^int move_right( int col )$/;"	f
+move_up	ansi_code.c	/^int move_up( int line )$/;"	f
+move_xy	ansi_code.c	/^int move_xy( int x, int y )$/;"	f
+next	glist.h	/^	gnode_t * next;	$/;"	m	struct:gnode
+next	glist1.c	/^	gnode_t * next;	$/;"	m	struct:gnode	file:
+node_num	glist.h	/^	int node_num;$/;"	m	struct:g_dict_list
+print_input_buf	dict.c	/^void print_input_buf( char * str, int input_off )$/;"	f
+putc_xy	ansi_code.c	/^int putc_xy( int x, int y, char ch )$/;"	f
+rectangle	ansi_code.c	/^int rectangle( int start_x, int start_y, int x_len, int y_len )$/;"	f
+restore_position	ansi_code.c	/^int restore_position( void )$/;"	f
+save_position	ansi_code.c	/^int save_position( void )$/;"	f
+search	glist.c	/^gnode_t * search( gnode_t * phead, char ch )$/;"	f
+search	glist1.c	/^gnode_t * search( gnode_t * phead, char * data )$/;"	f
+search_store_left_words	dict.c	/^int search_store_left_words( gnode_t * temp, char * words_str, int cur_words_str_len, char left_words[][MAX_WORDS_LEN] )$/;"	f
+search_words	dict.c	/^int search_words( g_dict_list_t * gdl, char * input_buf, $/;"	f
+set_bgcolor	ansi_code.c	/^int set_bgcolor( int color )$/;"	f
+set_color	ansi_code.c	/^int set_color( int fg, int bg )$/;"	f
+set_fgcolor	ansi_code.c	/^int set_fgcolor( int color )$/;"	f
+set_text_attribute	ansi_code.c	/^int set_text_attribute( int attr )$/;"	f
+show_explain	dict.c	/^int show_explain( char * words, char * explain )$/;"	f
+show_left_words	dict.c	/^int show_left_words( char * prefix, char left_words[][MAX_WORDS_LEN] )$/;"	f
+show_window	dict.c	/^int show_window( void )$/;"	f
+sub_level	glist.h	/^	gnode_t * sub_level;$/;"	m	struct:gnode
+sub_level	glist1.c	/^	gnode_t * sub_level;$/;"	m	struct:gnode	file:
+text_attribute	ansi_code.h	/^enum text_attribute {$/;"	g
+traversal_glist	glist.c	/^int traversal_glist( gnode_t * p )$/;"	f
+traversal_glist	glist1.c	/^int traversal_glist( gnode_t * p )$/;"	f
+winx	dict.c	/^int winx, winy;$/;"	v
+winy	dict.c	/^int winx, winy;$/;"	v

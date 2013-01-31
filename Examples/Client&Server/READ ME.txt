@@ -1,0 +1,9 @@
+client.cpp为客户端源码
+编译方式为 g++ -lpthread -o client client.cpp
+运行 ./client +server端IP地址
+
+server.cpp为服务器端源码
+编译方式为 g++ -lpthread -o server server.cpp
+运行 ./server
+ 
+User.txt存储的是用户的用户名及密码信息
